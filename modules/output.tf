@@ -8,6 +8,6 @@ output "out-1" {
   
 }
 output "out-2" {
-    value = module.module-s3
+    value = module.module-s3.BucketCreation
   
 }
